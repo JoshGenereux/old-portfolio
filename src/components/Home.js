@@ -2,6 +2,7 @@ import React from "react";
 import Info from "./Info";
 import About from "./About";
 import Resume from "./Resume";
+import Skills from "./Skills";
 
 const Home = ()=>{
 
@@ -10,6 +11,7 @@ const Home = ()=>{
       <Info />
       <About />
       <Resume />
+      <Skills />
     </>
   )
 }

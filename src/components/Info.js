@@ -18,7 +18,7 @@ const Info = ()=>{
         </h2>
       </section>
       <section className='pic-sect'>
-        <img alt='office' src={image}/>
+        <img className='info-pic' alt='office' src={image}/>
       </section>
     </div>
   )
