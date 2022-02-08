@@ -1,4 +1,5 @@
 .header{
+    position: sticky;
     width: 100vw;
     height: 80px;
     background-color: black;
@@ -33,7 +34,7 @@
     width: 60%;
     height: 100%;
     align-items: center;
-    align-content: end;
+    align-content: flex-end;
     gap: 20px;
 }
 
@@ -87,7 +88,7 @@
 .info-h1-p{
     font-family: 'Lobster', cursive;
     color: #f75604;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .info-h2{
@@ -108,7 +109,7 @@
 }
 
 .pic-sect{
-    width: 50%;
+    width: 600px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -126,4 +127,77 @@ img{
     width: 80%;
     height: 80%;
     border-radius: 50%;
+}
+
+.about-container{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background: none;
+    border: none;
+    margin-top: 20vh;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #a6a6a6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.about-header{
+    font-size: 80px;
+    color: #f75604;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.about-p{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.about-home-btn{
+    position: relative;
+    width: 70px;
+    height: 30px;
+    background: none;
+    border: none;
+    color: #833AB4FF;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+.resume-background{
+    position: relative;
+    margin-top: 20vh;
+    width: 100vw;
+    height: 1000px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.about-home-btn:hover{
+    text-decoration: underline;
+}
+
+.resume-container {
+    width: 800px;
+    height: 900px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.resume{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
 }

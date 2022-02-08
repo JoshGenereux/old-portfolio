@@ -9,6 +9,7 @@ const Header = ()=>{
       </div>
       <div className='buttons'>
         <button className='button'>About Me</button>
+        <button className='button'>Resume</button>
         <button className='button'>Skills</button>
         <button className='button'>Projects</button>
         <button className='button'>Resume</button>
