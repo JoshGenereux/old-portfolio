@@ -269,3 +269,95 @@
     color: #833AB4FF;
     font-family: 'Architects Daughter', cursive;
 }
+
+.projects-container {
+    width: 100vw;
+    height: 1000px;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.project{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.card {
+    width: 500px;
+    height: 800px;
+    display: flex;
+    background-color: white;
+    border: solid 5px #f75604;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.projects-header{
+    font-size: 80px;
+    color: #f75604;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.card-pic-div{
+    width: 100%;
+    height: 35%;
+}
+.card-vid{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+}
+
+.card-info-h1{
+    font-size: 65px;
+    color: #f75604;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.card-desc{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #833AB4FF;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.tech-stack{
+    font-size: 45px;
+    color: #f75604;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tech{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #833AB4FF;
+    font-family: 'Architects Daughter', cursive;
+}

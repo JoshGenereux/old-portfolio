@@ -18,7 +18,7 @@ const Header = ()=>{
         <ScrollIntoView selector='.skills-h1'>
           <button className='button'>Skills</button>
         </ScrollIntoView>
-        <ScrollIntoView selector='.project-container'>
+        <ScrollIntoView selector='.projects-container'>
           <button className='button'>Projects</button>
         </ScrollIntoView>
         <ScrollIntoView selector='.footer'>
