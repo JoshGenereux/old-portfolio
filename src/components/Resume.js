@@ -9,6 +9,7 @@ const Resume = ()=>{
       <h1 className='resume-header'>Resume</h1>
       <div className='resume-container'>
         <img className='resume' src={resume}/>
+        <h1 className='resume-words'>In Progress</h1>
       </div>
       <ScrollIntoView selector='.header'>
         <button className='about-home-btn'>Home</button>

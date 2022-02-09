@@ -186,6 +186,16 @@
     width: 100%;
 }
 
+.resume-words{
+    position: relative;
+    text-decoration: underline;
+    font-size: 150px;
+    color: #f75604;
+    top: -650px;
+    left: 25px;
+    transform: rotateZ(-45deg);
+}
+
 .resume-home-btn, .skills-home-btn, .about-home-btn{
     position: relative;
     width: 70px;
