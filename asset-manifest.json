@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.67fe4659.css",
-    "main.js": "/static/js/main.a6d9c09e.js",
+    "main.css": "/static/css/main.a5bf66fb.css",
+    "main.js": "/static/js/main.423166f2.js",
+    "static/media/jsportfolio.png": "/static/media/jsportfolio.df8a2b42232f5df65c0c.png",
+    "static/media/react-weather.png": "/static/media/react-weather.ed12a5a3534ef0a144b1.png",
+    "static/media/live-fitness-pic.png": "/static/media/live-fitness-pic.d22ab10af2c5fe20ced7.png",
+    "static/media/todo.png": "/static/media/todo.1c515fc74e12796e6faf.png",
     "static/media/computer.png": "/static/media/computer.47b5afb1366d079549ca.png",
     "static/media/Screen Shot 2022-02-08 at 3.11.17 PM.png": "/static/media/Screen Shot 2022-02-08 at 3.11.17 PM.36aac55005f137d56fd6.png",
     "static/media/javascript-39395.png": "/static/media/javascript-39395.7f8751632b42a9932c15.png",
     "static/media/express.png": "/static/media/express.548f1cfd65ae2d062126.png",
     "static/media/sequelize.png": "/static/media/sequelize.d98b2554b49e415e0c08.png",
     "index.html": "/index.html",
-    "main.67fe4659.css.map": "/static/css/main.67fe4659.css.map",
-    "main.a6d9c09e.js.map": "/static/js/main.a6d9c09e.js.map"
+    "main.a5bf66fb.css.map": "/static/css/main.a5bf66fb.css.map",
+    "main.423166f2.js.map": "/static/js/main.423166f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.67fe4659.css",
-    "static/js/main.a6d9c09e.js"
+    "static/css/main.a5bf66fb.css",
+    "static/js/main.423166f2.js"
   ]
 }
