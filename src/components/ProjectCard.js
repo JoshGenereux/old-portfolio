@@ -2,8 +2,6 @@ import React from "react";
 
 const ProjectCard = ({projects, id})=>{
 
-  console.log(projects[id])
-
   return (
     <div className='card'>
       <div className='card-pic-div'>
@@ -14,8 +12,9 @@ const ProjectCard = ({projects, id})=>{
         <p className='card-desc'>{projects[id].description}</p>
         <h2 className='tech-stack'>Tech Stack:</h2>
         <ul className='card-tech'>
-          { projects[id].tech.map(item => <li className='tech'>{item}</li>) }
+          { projects[id].tech.map((item, i) => <li key={i} className='tech'>{item}</li>) }
         </ul>
+        <a href={projects[id].link} target='_blank'>github repo</a>
       </section>
     </div>
   )

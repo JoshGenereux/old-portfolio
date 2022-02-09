@@ -330,7 +330,7 @@
     width: 100%;
     height: 35%;
 }
-.card-vid{
+.card-pic{
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -373,5 +373,13 @@
     font-weight: bolder;
     font-size: 25px;
     color: #833AB4FF;
+    font-family: 'Architects Daughter', cursive;
+}
+
+a{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #f75604;
     font-family: 'Architects Daughter', cursive;
 }
