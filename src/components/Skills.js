@@ -9,6 +9,8 @@ import express from '../pictures/express.png'
 import sequelize from '../pictures/sequelize.png'
 import axios from '../pictures/axios.png'
 import ScrollIntoView from "react-scroll-into-view";
+import {faHouse} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Skills = ()=>{
 
@@ -54,7 +56,7 @@ const Skills = ()=>{
         </section>
       </div>
       <ScrollIntoView selector='.header'>
-        <button className='about-home-btn'>Home</button>
+        <button className='about-home-btn'><FontAwesomeIcon icon={faHouse} /></button>
       </ScrollIntoView>
     </div>
   )

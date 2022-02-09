@@ -1,5 +1,7 @@
 import React from "react";
 import ScrollIntoView from "react-scroll-into-view";
+import {faHouse} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const About = ()=>{
 
@@ -11,7 +13,7 @@ const About = ()=>{
       in Utah and really enjoying programming! Cars, Motorcycles and video games are a big passion of mine.
       Ive had a few motorcycles, but had to sell my last one due to moving, hopefully I can get another one soon.</p>
       <ScrollIntoView selector='.header'>
-        <button className='about-home-btn'>Home</button>
+        <button className='about-home-btn'><FontAwesomeIcon icon={faHouse} /></button>
       </ScrollIntoView>
     </div>
   )
