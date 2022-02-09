@@ -5,7 +5,7 @@ const ProjectCard = ({projects, id})=>{
   return (
     <div className='card'>
       <div className='card-pic-div'>
-        <img className='card-pic' src={projects[id].picture}/>
+        <img className='card-pic' alt='pic' src={projects[id].picture}/>
       </div>
       <section className='card-info'>
         <h1 className='card-info-h1'>{projects[id].name}</h1>
@@ -14,7 +14,7 @@ const ProjectCard = ({projects, id})=>{
         <ul className='card-tech'>
           { projects[id].tech.map((item, i) => <li key={i} className='tech'>{item}</li>) }
         </ul>
-        <a href={projects[id].link} target='_blank'>github repo</a>
+        <a href={projects[id].link} target='_blank'>Github Repo</a>
       </section>
     </div>
   )

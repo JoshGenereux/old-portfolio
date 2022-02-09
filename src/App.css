@@ -302,6 +302,7 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
+    transition: ease .3s;
 }
 
 .projects-header{
@@ -328,7 +329,7 @@
 
 .card-pic-div{
     width: 100%;
-    height: 35%;
+    height: 30%;
 }
 .card-pic{
     width: 100%;
@@ -342,7 +343,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 65%;
+    height: 70%;
 }
 
 .card-info-h1{
@@ -377,9 +378,14 @@
 }
 
 a{
+    height: 30px;
     text-align: center;
     font-weight: bolder;
     font-size: 20px;
     color: #f75604;
     font-family: 'Architects Daughter', cursive;
+    transition: .3s ease;
+}
+a:hover {
+    font-size: 28px;
 }
