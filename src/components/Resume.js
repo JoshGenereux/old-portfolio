@@ -1,5 +1,6 @@
 import React from "react";
 import resume from '../pictures/Screen Shot 2022-02-08 at 3.11.17 PM.png';
+import ScrollIntoView from "react-scroll-into-view";
 
 const Resume = ()=>{
 
@@ -9,7 +10,9 @@ const Resume = ()=>{
       <div className='resume-container'>
         <img className='resume' src={resume}/>
       </div>
-      <button className='resume-home-btn'>Home</button>
+      <ScrollIntoView selector='.header'>
+        <button className='about-home-btn'>Home</button>
+      </ScrollIntoView>
     </div>
   )
 }

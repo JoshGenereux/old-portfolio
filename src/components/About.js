@@ -1,5 +1,5 @@
 import React from "react";
-import ScrollIntoView from 'react-scroll-into-view';
+import ScrollIntoView from "react-scroll-into-view";
 
 const About = ()=>{
 
@@ -10,7 +10,9 @@ const About = ()=>{
       At the time I was doing roadwork in Las Vegas after moving there from Utah. Currently I live back
       in Utah and really enjoying programming! Cars, Motorcycles and video games are a big passion of mine.
       Ive had a few motorcycles, but had to sell my last one due to moving, hopefully I can get another one soon.</p>
-      <button className='about-home-btn'>Home</button>
+      <ScrollIntoView selector='.header'>
+        <button className='about-home-btn'>Home</button>
+      </ScrollIntoView>
     </div>
   )
 }

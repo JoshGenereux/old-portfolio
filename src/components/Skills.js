@@ -8,6 +8,7 @@ import html from '../pictures/html5-logo-31813.png';
 import express from '../pictures/express.png'
 import sequelize from '../pictures/sequelize.png'
 import axios from '../pictures/axios.png'
+import ScrollIntoView from "react-scroll-into-view";
 
 const Skills = ()=>{
 
@@ -52,7 +53,9 @@ const Skills = ()=>{
           <h2 className='skill-name'>Axios</h2>
         </section>
       </div>
-      <button className='skills-home-btn'>Home</button>
+      <ScrollIntoView selector='.header'>
+        <button className='about-home-btn'>Home</button>
+      </ScrollIntoView>
     </div>
   )
 }
