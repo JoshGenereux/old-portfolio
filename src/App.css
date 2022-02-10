@@ -514,3 +514,135 @@ a:hover {
         height: 200px;
     }
 }
+
+@media (max-width: 480px){
+    .email {
+        font-size: 25px;
+    }
+    .info-h2{
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+        height: auto;
+        align-items: center;
+        align-content: center;
+    }
+    .info-sect{
+        width: 100%;
+        height: 50%;
+    }
+    .info-pic{
+        width: 250px;
+        height: 250px;
+    }
+    .pic-sect{
+        width: 100%;
+        height: 550%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-pic{
+        width: 225px;
+        height: 225px;
+    }
+    .buttons {
+        width: 100vw;
+        gap: 5px;
+    }
+    .initials{
+        display: none;
+    }
+    .about-container{
+        width: 300px;
+        height: 650px;
+    }
+    .about-p{
+        font-size: 20px;
+    }
+    .about-header{
+        font-size: 60px;
+    }
+    .resume-header{
+        font-size: 60px;
+    }
+    .resume-background{
+        height: 800px;
+    }
+    .resume-container{
+        width: 300px;
+        height: 500px;
+    }
+    .skills-h1{
+        font-size: 60px;
+    }
+    .skill{
+        width: 150px;
+        height: 150px;
+    }
+    .skill-name{
+        font-size: 30px;
+    }
+    .skills-container{
+        width: 310px;
+        height: 800px;
+        margin-bottom: 20vh;
+        justify-content: space-evenly;
+    }
+    .skills{
+        gap: 10px;
+    }
+    .projects-header{
+        font-size: 60px;
+    }
+    .projects-container{
+        height: 700px;
+    }
+    .card{
+        height: 550px;
+        width: 220px;
+    }
+    .card-pic-div{
+        display: none;
+    }
+    .card-info{
+        height: 100%;
+        justify-content: space-around;
+    }
+    .card-info-h1{
+        font-size: 40px;
+    }
+    .tech-stack{
+        font-size: 30px;
+    }
+    .card-desc, .tech{
+        font-size: 20px;
+    }
+    .left-button, .right-button{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .left-button:hover, .right-button:hover {
+        font-size: 45px;
+    }
+    .footer-h1{
+        margin: 0;
+        font-size: 60px;
+    }
+    .footer{
+        height: 600px;
+    }
+    .footer-section{
+        gap: 0;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+    .foot-a{
+        font-size: 25px;
+    }
+}

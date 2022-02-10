@@ -21,7 +21,7 @@ const Footer = ()=>{
       </section>
       <section className='footer-section'>
         <FontAwesomeIcon className='icon' icon={faEnvelope} />
-        <p className='foot-a'>josh.genereux13@gmail.com</p>
+        <p className='foot-a email'>josh.genereux13@gmail.com</p>
       </section>
       <ScrollIntoView selector='.header'>
         <button className='about-home-btn footer-home'><FontAwesomeIcon icon={faHouse} /></button>
