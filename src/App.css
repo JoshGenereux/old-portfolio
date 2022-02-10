@@ -60,13 +60,12 @@
     width: 100vw;
     height: 500px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: black;
 }
 
 .info-sect{
-    width: 50%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -109,7 +108,7 @@
 }
 
 .pic-sect{
-    width: 600px;
+    width: 40%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -124,8 +123,8 @@
 }
 
 .info-pic{
-    width: 80%;
-    height: 80%;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
 }
 
@@ -439,3 +438,6 @@ a:hover {
 .footer-home {
     margin-top: 50px;
 }
+
+
+@media (max-width: )
