@@ -20,6 +20,7 @@
     "react-redux": "^7.2.6",
     "react-scripts": "5.0.0",
     "react-scroll-into-view": "^1.11.0",
+    "react-spring": "^9.4.2",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },

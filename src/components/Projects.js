@@ -71,7 +71,7 @@ const Projects = ()=>{
       <h1 className='projects-header'>Projects</h1>
       <div className='project'>
         <button onClick={handleLeft} className='left-button'><FontAwesomeIcon icon={faArrowLeft} /></button>
-        {projects && <ProjectCard projects={projects} id={id}/>}
+        <ProjectCard projects={projects} id={id}/>
         <button onClick={handleRight} className='right-button'><FontAwesomeIcon icon={faArrowRight} /></button>
       </div>
       <ScrollIntoView selector='.header'>
