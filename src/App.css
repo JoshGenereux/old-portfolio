@@ -487,3 +487,30 @@ a:hover {
         width: 100%;
     }
 }
+
+@media (max-width: 768px){
+    .buttons {
+        width: 85%;
+    }
+    .info-h2{
+        font-size: 30px;
+    }
+    .about-container{
+        width: 450px;
+        height: 950px;
+    }
+    .resume-container {
+        width: 450px;
+        height: 600px;
+    }
+    .skills-container{
+        width: 450px;
+        height: 1250px;
+        margin-bottom: 20vh;
+        justify-content: space-evenly;
+    }
+    .skill {
+        width: 200px;
+        height: 200px;
+    }
+}
