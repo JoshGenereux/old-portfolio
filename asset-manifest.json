@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e51ac303.css",
+    "main.css": "/static/css/main.88037456.css",
     "main.js": "/static/js/main.b2d4d7d0.js",
     "static/media/jsportfolio.png": "/static/media/jsportfolio.df8a2b42232f5df65c0c.png",
     "static/media/react-weather.png": "/static/media/react-weather.ed12a5a3534ef0a144b1.png",
@@ -14,11 +14,11 @@
     "static/media/github.svg": "/static/media/github.b758fd95bedfb4e7b62ac56c4d6e5386.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.787aa301244425e7fe5bdcff7917892f.svg",
-    "main.e51ac303.css.map": "/static/css/main.e51ac303.css.map",
+    "main.88037456.css.map": "/static/css/main.88037456.css.map",
     "main.b2d4d7d0.js.map": "/static/js/main.b2d4d7d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e51ac303.css",
+    "static/css/main.88037456.css",
     "static/js/main.b2d4d7d0.js"
   ]
 }
