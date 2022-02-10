@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header{
     position: sticky;
     width: 100vw;
@@ -440,4 +446,44 @@ a:hover {
 }
 
 
-@media (max-width: )
+@media (max-width: 1024px){
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+    .info-sect{
+        width: 100%;
+        height: 30%;
+    }
+    .info-pic{
+        width: 250px;
+        height: 250px;
+    }
+    .about-container{
+        width: 725px;
+        height: 725px;
+    }
+    .resume-container {
+        width: 725px;
+        height: 900px;
+    }
+    .skills-container{
+        width: 750px;
+        height: 1500px;
+        margin-bottom: 20vh;
+        justify-content: space-evenly;
+    }
+    .footer-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot-a{
+        text-align: center;
+        width: 100%;
+    }
+}
