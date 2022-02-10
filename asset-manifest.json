@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5bf66fb.css",
-    "main.js": "/static/js/main.423166f2.js",
+    "main.css": "/static/css/main.e9785387.css",
+    "main.js": "/static/js/main.fd148bcc.js",
     "static/media/jsportfolio.png": "/static/media/jsportfolio.df8a2b42232f5df65c0c.png",
     "static/media/react-weather.png": "/static/media/react-weather.ed12a5a3534ef0a144b1.png",
     "static/media/live-fitness-pic.png": "/static/media/live-fitness-pic.d22ab10af2c5fe20ced7.png",
@@ -11,12 +11,14 @@
     "static/media/javascript-39395.png": "/static/media/javascript-39395.7f8751632b42a9932c15.png",
     "static/media/express.png": "/static/media/express.548f1cfd65ae2d062126.png",
     "static/media/sequelize.png": "/static/media/sequelize.d98b2554b49e415e0c08.png",
+    "static/media/github.svg": "/static/media/github.b758fd95bedfb4e7b62ac56c4d6e5386.svg",
     "index.html": "/index.html",
-    "main.a5bf66fb.css.map": "/static/css/main.a5bf66fb.css.map",
-    "main.423166f2.js.map": "/static/js/main.423166f2.js.map"
+    "static/media/linkedin.svg": "/static/media/linkedin.787aa301244425e7fe5bdcff7917892f.svg",
+    "main.e9785387.css.map": "/static/css/main.e9785387.css.map",
+    "main.fd148bcc.js.map": "/static/js/main.fd148bcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5bf66fb.css",
-    "static/js/main.423166f2.js"
+    "static/css/main.e9785387.css",
+    "static/js/main.fd148bcc.js"
   ]
 }
