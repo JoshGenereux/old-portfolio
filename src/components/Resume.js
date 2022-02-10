@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../pictures/Screen Shot 2022-02-08 at 3.11.17 PM.png';
+import resume from '../pictures/resume.png';
 import ScrollIntoView from "react-scroll-into-view";
 import {faHouse} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -11,7 +11,6 @@ const Resume = ()=>{
       <h1 className='resume-header'>Resume</h1>
       <div className='resume-container'>
         <img className='resume' src={resume}/>
-        <h1 className='resume-words'>In Progress</h1>
       </div>
       <ScrollIntoView selector='.header'>
         <button className='about-home-btn'><FontAwesomeIcon icon={faHouse} /></button>
