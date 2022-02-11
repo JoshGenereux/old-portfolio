@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.42965c88.css",
-    "main.js": "/static/js/main.e853b95e.js",
+    "main.js": "/static/js/main.c2befd8a.js",
     "static/media/jsportfolio.png": "/static/media/jsportfolio.df8a2b42232f5df65c0c.png",
     "static/media/react-weather.png": "/static/media/react-weather.ed12a5a3534ef0a144b1.png",
     "static/media/live-fitness-pic.png": "/static/media/live-fitness-pic.d22ab10af2c5fe20ced7.png",
     "static/media/todo.png": "/static/media/todo.1c515fc74e12796e6faf.png",
     "static/media/computer.png": "/static/media/computer.47b5afb1366d079549ca.png",
-    "static/media/resume.png": "/static/media/resume.88ae6abfb002e6d9c15e.png",
+    "static/media/resume.png": "/static/media/resume.8a1219709b467299a97e.png",
     "static/media/javascript-39395.png": "/static/media/javascript-39395.7f8751632b42a9932c15.png",
     "static/media/express.png": "/static/media/express.548f1cfd65ae2d062126.png",
     "static/media/sequelize.png": "/static/media/sequelize.d98b2554b49e415e0c08.png",
@@ -15,10 +15,10 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.787aa301244425e7fe5bdcff7917892f.svg",
     "main.42965c88.css.map": "/static/css/main.42965c88.css.map",
-    "main.e853b95e.js.map": "/static/js/main.e853b95e.js.map"
+    "main.c2befd8a.js.map": "/static/js/main.c2befd8a.js.map"
   },
   "entrypoints": [
     "static/css/main.42965c88.css",
-    "static/js/main.e853b95e.js"
+    "static/js/main.c2befd8a.js"
   ]
 }
