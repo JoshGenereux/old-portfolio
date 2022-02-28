@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7e27eaf.css",
-    "main.js": "/static/js/main.f74398af.js",
+    "main.css": "/static/css/main.e28bb3f5.css",
+    "main.js": "/static/js/main.2b632962.js",
     "static/media/jsportfolio.png": "/static/media/jsportfolio.df8a2b42232f5df65c0c.png",
     "static/media/react-weather.png": "/static/media/react-weather.ed12a5a3534ef0a144b1.png",
     "static/media/live-fitness-pic.png": "/static/media/live-fitness-pic.d22ab10af2c5fe20ced7.png",
+    "static/media/headshot.jpeg": "/static/media/headshot.b7d11feb4a07e9a9f73d.jpeg",
     "static/media/todo.png": "/static/media/todo.1c515fc74e12796e6faf.png",
     "static/media/JPass": "/static/media/JPass.990ae2bfa96b21c1ac58",
-    "static/media/computer.png": "/static/media/computer.47b5afb1366d079549ca.png",
     "static/media/resume.png": "/static/media/resume.8a1219709b467299a97e.png",
     "static/media/javascript-39395.png": "/static/media/javascript-39395.7f8751632b42a9932c15.png",
     "static/media/express.png": "/static/media/express.548f1cfd65ae2d062126.png",
@@ -15,11 +15,11 @@
     "static/media/github.svg": "/static/media/github.b758fd95bedfb4e7b62ac56c4d6e5386.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.787aa301244425e7fe5bdcff7917892f.svg",
-    "main.a7e27eaf.css.map": "/static/css/main.a7e27eaf.css.map",
-    "main.f74398af.js.map": "/static/js/main.f74398af.js.map"
+    "main.e28bb3f5.css.map": "/static/css/main.e28bb3f5.css.map",
+    "main.2b632962.js.map": "/static/js/main.2b632962.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7e27eaf.css",
-    "static/js/main.f74398af.js"
+    "static/css/main.e28bb3f5.css",
+    "static/js/main.2b632962.js"
   ]
 }
