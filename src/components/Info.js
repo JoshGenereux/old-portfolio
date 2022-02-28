@@ -1,5 +1,5 @@
 import React from "react";
-import image from '../pictures/computer.png'
+import headshot from '../pictures/headshot.jpeg'
 
 const Info = ()=>{
   const js = 'Javascript'
@@ -18,7 +18,7 @@ const Info = ()=>{
         </h2>
       </section>
       <section className='pic-sect'>
-        <img className='info-pic' alt='office' src={image}/>
+        <img className='info-pic' alt='my face' src={headshot}/>
       </section>
     </div>
   )
