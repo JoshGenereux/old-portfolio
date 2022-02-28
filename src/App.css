@@ -62,6 +62,22 @@
     -webkit-text-fill-color: transparent;
 }
 
+.menu{
+    position: absolute;
+    top: 80px;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+    z-index: 10;
+}
+.menu:checked{
+
+}
+
 .info-container{
     width: 100vw;
     height: 500px;
@@ -548,20 +564,19 @@ a:hover {
         width: 225px;
         height: 225px;
     }
-    .buttons {
-        width: 100vw;
-        gap: 5px;
-    }
     .button{
+        font-size: 35px;
         background-color: rgb(131,58,180);
         background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 33%, rgba(252,176,69,1) 71%);
         background-size: 100%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        text-decoration: underline;
     }
-    .initials{
-        display: none;
+    .buttons {
+        justify-content: right;
+    }
+    .menu-btn{
+        margin-right: 25px;
     }
     .about-container{
         width: 300px;
