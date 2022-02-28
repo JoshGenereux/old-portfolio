@@ -14,8 +14,8 @@ const Header = ()=>{
   return (
     <div className='header'>
       <Media queries={{
-        small: "(max-width: 480px)",
-        large: "(min-width: 481px)"
+        small: "(max-width: 768px)",
+        large: "(min-width: 769px)"
       }}>
         {matches => (
           <>
