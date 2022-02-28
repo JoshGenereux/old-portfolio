@@ -8,6 +8,7 @@ import fitness from '../pictures/live-fitness-pic.png';
 import weather from '../pictures/react-weather.png';
 import portfolio from '../pictures/jsportfolio.png';
 import todo from '../pictures/todo.png';
+import jpass from '../pictures/JPass';
 
 const Projects = ()=>{
   const [id, setId] = useState(0);
@@ -44,6 +45,14 @@ const Projects = ()=>{
       description: 'Functional, simple todo list built using react.',
       tech: ["Javascript",'HTML', 'CSS', 'React', 'Node.js'],
       link: "https://github.com/JoshGenereux/react-todo-list"
+    },
+    {
+      id : 5,
+      name: "JPass",
+      picture: jpass,
+      description: 'A Password manager, that is fully functional and secure.',
+      tech: ["Javascript",'HTML', 'CSS', 'React', 'Node.js', 'bcrypt','CryptoJs'],
+      link: "https://github.com/JoshGenereux/jPass"
     }
   ]);
 
