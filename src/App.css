@@ -150,22 +150,38 @@
     border-radius: 50%;
 }
 
-.about-container{
+/*                  **hovering about container**          */
+
+.about-sect{
     position: relative;
     width: 800px;
     height: 600px;
     background: none;
-    border: none;
     margin-top: 20vh;
     left: 50%;
-    transform: translate(-50%);
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px #a6a6a6;
+    transform:
+            translate(-50%)
+            perspective(75em)
+            rotateX(10deg);
+    box-shadow:
+            rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+            rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color:
+            rgb(213, 220, 226)
+            rgb(213, 220, 226)
+            rgb(184, 194, 204);
+}
+
+
+.about-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    position: relative;
 }
 
 .about-header, .resume-header{
@@ -180,6 +196,8 @@
     text-align: center;
     font-family: 'Architects Daughter', cursive;
 }
+
+ /*         ** end about container**            */
 
 .resume-background{
     position: relative;
@@ -278,6 +296,24 @@
     border: none;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px lightgray;
+
+    transform:
+            perspective(800px)
+            rotateY(25deg) scale(0.9)
+            rotateX(10deg);
+    filter: blur(2px);
+    opacity: 0.5;
+    transition: 0.6s ease all;
+}
+.skill:hover {
+    transform:
+            perspective(800px)
+            rotateY(-15deg)
+            translateY(-50px)
+            rotateX(10deg)
+            scale(1);
+    filter: blur(0);
+    opacity: 1;
 }
 
 .skill-png{
@@ -323,7 +359,6 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    transition: ease .3s;
 }
 
 .projects-header{
@@ -461,6 +496,13 @@ a:hover {
     margin-top: 50px;
 }
 
+.email{
+    font-size: 30px;
+}
+.email:hover{
+    font-size: 30px;
+}
+
 
 @media (max-width: 1024px){
     .info-container{
@@ -477,7 +519,7 @@ a:hover {
         width: 250px;
         height: 250px;
     }
-    .about-container{
+    .about-sect{
         width: 725px;
         height: 725px;
     }
@@ -508,7 +550,7 @@ a:hover {
     .info-h2{
         font-size: 30px;
     }
-    .about-container{
+    .about-sect{
         width: 450px;
         height: 950px;
     }
@@ -525,14 +567,25 @@ a:hover {
     .skill {
         width: 200px;
         height: 200px;
+        transform:
+                perspective(0px)
+                rotateY(0deg) scale(1)
+                rotateX(0deg);
+        filter: blur(0px);
+        opacity: 1;
+    }
+    .skill:hover {
+        transform:
+                perspective(0px)
+                rotateY(0deg)
+                translateY(00px)
+                rotateX(0deg)
+                scale(1);
+        filter: blur(0);
+        opacity: 1;
     }
     .button{
         font-size: 35px;
-        background-color: rgb(131,58,180);
-        background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 33%, rgba(252,176,69,1) 71%);
-        background-size: 100%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
     .buttons {
         justify-content: right;
@@ -575,7 +628,7 @@ a:hover {
         width: 225px;
         height: 225px;
     }
-    .about-container{
+    .about-sect{
         width: 300px;
         height: 650px;
     }
